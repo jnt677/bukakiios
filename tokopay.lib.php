@@ -1,8 +1,8 @@
 <?php
 class Tokopay
 {
-    public $merchantId = 'YOUR_MERCHANT_ID';
-    public $secretKey = 'YOUR_SECRET_KEY';
+    public $merchantId = 'M240806VNHJL066';
+    public $secretKey = '846c1ee70c4a112efd68a2bc53e8928776a920ccd56cfd251dbea93bec4dab46';
     public $apiUrl = "https://api.tokopay.id";
 
     public function __construct($merchantId, $secretKey)
